@@ -26,7 +26,6 @@ public class UpgradedDiamondPickaxe extends PickaxeItem {
         super(ToolMaterials.DIAMOND, settings);
     }
 
-    /* ===== ツールチップ（説明文） ===== */
     @Environment(EnvType.CLIENT)
     @Override
     public void appendTooltip(
@@ -47,7 +46,6 @@ public class UpgradedDiamondPickaxe extends PickaxeItem {
     }
 
 
-    /* ===== 3×3 採掘処理 ===== */
     @Override
     public boolean postMine(
             ItemStack stack,
@@ -64,7 +62,6 @@ public class UpgradedDiamondPickaxe extends PickaxeItem {
             return super.postMine(stack, world, state, pos, miner);
         }
 
-        // Shift中は1×1
         if (player.isSneaking()) {
             return super.postMine(stack, world, state, pos, miner);
         }
@@ -78,10 +75,8 @@ public class UpgradedDiamondPickaxe extends PickaxeItem {
                 BlockPos targetPos;
 
                 if (vertical) {
-                    // 上下向き → 床・天井 3×3
                     targetPos = pos.add(x, 0, y);
                 } else {
-                    // 横向き → 壁 3×3
                     Direction dir = player.getHorizontalFacing();
                     if (dir == Direction.NORTH || dir == Direction.SOUTH) {
                         targetPos = pos.add(x, y, 0);

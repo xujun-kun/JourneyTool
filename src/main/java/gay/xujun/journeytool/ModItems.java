@@ -16,12 +16,12 @@ public class ModItems {
     private static Item register(String id, Item item) {
         return Registry.register(
                 Registries.ITEM,
-                Identifier.of(JourneyTool.MOD_ID, id), // ← ここ
+                Identifier.of(JourneyTool.MOD_ID, id),
                 item
         );
     }
 
     public static void registerModItems() {
-        JourneyTool.LOGGER.info("Registering Mod Items");
+        JourneyTool.LOGGER.info("诶 醒醒醒醒 该起床了");
     }
 }
