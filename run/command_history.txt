@@ -1,0 +1,14 @@
+/give @a
+/give @s journeytool:upgraded_diamond_pickaxe
+/enchant @s minecraft:efficiency 5
+/effect give @a minecraft:night_vision infinite
+/give @s minecraft:diamond_pickaxe
+/give @s minecraft:golden_pickaxe
+/give @s jo
+/give @s journeytool:upgraded_diamond_pickaxe
+/time set day
+/recipe give @p journeytool:upgraded_diamond_pickaxe
+/reload
+/time set day
+/give @a minecraft:torch 64
+/give @s journeytool:upgraded_diamond_pickaxe

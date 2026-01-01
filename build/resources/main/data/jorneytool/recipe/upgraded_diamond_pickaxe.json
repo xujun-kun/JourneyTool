@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    " G ",
+    " / "
+  ],
+  "key": {
+    "#": { "item": "minecraft:diamond" },
+    "D": { "item": "minecraft:diamond_pickaxe" },
+    "G": { "item": "minecraft:gold_block" },
+    "/": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "id": "journeytool:upgraded_diamond_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "journeytool",
+  "version": "v1.0+1.21.1",
+  "name": "JourneyTool",
+  "description": "This mod is my fast mod!",
+  "authors": [
+    "XuJunKun"
+  ],
+  "contact": {
+    "homepage": "https://xujun.gay/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/journeytool/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gay.xujun.journeytool.JourneyTool"
+    ],
+    "client": [
+      "gay.xujun.journeytool.JourneyToolClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "journeytool:item/upgraded_diamond_pickaxe"
+  }
+}
