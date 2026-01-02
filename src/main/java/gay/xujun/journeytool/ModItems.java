@@ -1,6 +1,7 @@
 package gay.xujun.journeytool;
 
 import gay.xujun.journeytool.item.UpgradedDiamondPickaxe;
+import gay.xujun.journeytool.JourneyTool;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

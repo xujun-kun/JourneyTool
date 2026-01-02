@@ -12,3 +12,9 @@
 /time set day
 /give @a minecraft:torch 64
 /give @s journeytool:upgraded_diamond_pickaxe
+/enchant @a minecraft:efficiency 5
+/time set day
+/enchant @a minecraft:efficiency 5
+/time set day
+/give @s journeytool:upgraded_diamond_pickaxe
+/enchant @a minecraft:efficiency 5
